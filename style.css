@@ -1,0 +1,147 @@
+﻿/* 🌐 General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+}
+
+/* 📦 Main Container */
+.container {
+  background: white;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* 💰 Balance Box */
+.balance-box {
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* 📊 Summary */
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.income-box {
+  background: #d4edda;
+  padding: 10px;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.expense-box {
+  background: #f8d7da;
+  padding: 10px;
+  border-radius: 8px;
+  width: 45%;
+}
+
+/* 📝 Form */
+.form input, .form select, .form button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+.clear-btn {
+  background: red;
+  color: white;
+}
+
+/* 📋 List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.income {
+  background: #d4edda;
+}
+
+.expense {
+  background: #f8d7da;
+}
+
+/* 🔐 LOGIN PAGE DESIGN */
+
+.login-container {
+  background: white;
+  width: 300px;
+  margin: 100px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* 🔵 Attractive Login Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(45deg, #0056b3, #0099cc);
+}
+
+/* ❌ Error message */
+.error {
+  color: red;
+  margin-top: 10px;
+}
